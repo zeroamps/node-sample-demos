@@ -1,0 +1,31 @@
+{
+  "name": "examples",
+  "description": "This repository is created just for playing.",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroamps/examples.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "start-hello": "nodemon ./01_hello/main.js",
+    "start-object": "nodemon ./02_object/main.js",
+    "start-module": "nodemon ./03_module/main.js",
+    "start-path": "nodemon ./04_path/main.js",
+    "start-os": "nodemon ./05_os/main.js",
+    "start-fs": "nodemon ./06_fs/main.js",
+    "start-events": "nodemon ./07_events/main.js",
+    "start-http": "nodemon ./08_http/main.js",
+    "start-process": "nodemon ./09_process/main.js",
+    "start-jsdoc": "nodemon ./10_jsdoc/main.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
+}

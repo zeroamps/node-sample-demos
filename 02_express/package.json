@@ -1,0 +1,44 @@
+{
+  "name": "examples",
+  "description": "This repository is created just for playing.",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroamps/examples.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "start-hello": "nodemon ./01_hello/main.js",
+    "start-validate": "nodemon ./02_validate/main.js",
+    "start-router": "nodemon ./03_router/main.js",
+    "start-middleware": "nodemon ./04_middleware/main.js",
+    "start-session": "nodemon ./05_session/main.js",
+    "start-passport-local": "nodemon ./06_passport_local/main.js",
+    "start-passport-jwt": "nodemon ./07_passport_jwt/main.js",
+    "start-jsonwebtoken": "nodemon ./08_jsonwebtoken/main.js",
+    "start-express-jwt": "nodemon ./09_express-jwt/main.js",
+    "start-express-jwt-permissions": "nodemon ./10_express-jwt-permissions/main.js",
+    "start-winston": "nodemon ./11_winston/main.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "express-jwt-permissions": "^1.3.6",
+    "express-session": "^1.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "winston": "^3.7.2"
+  }
+}
