@@ -1,2 +1,3 @@
-# node-sample-demos
+# Node.js Sample Demos
+
 A collection of Node.js examples.
